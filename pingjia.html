@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>评价</title>
+<link rel="stylesheet" type="text/css" href="css/pub.css">
+<link rel="stylesheet" type="text/css" href="css/pingjia.css">
+<link rel="stylesheet" type="text/css" href="foundation-icons.css">
+</head>
+<body>
+<div class="header">
+	<div class="header-main">
+		<ul>
+			<li>您好，<a href="">张三</a></li>
+			<li><a href="">退出</a></li>
+			<li><a href="">帮帮家政首页</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="search-main">
+	<img src="images/demo.png" alt="帮帮家政网">
+	<div class="input-but">
+		<form action="" method="get">
+			<input type="text" name="question">
+			<input type="submit" value="搜索">
+			<div class="search-text">找服务</div>
+		</form>
+	</div>
+</div>
+
+<div class="main">
+	<div class="p-title">
+		<div class="p-title-1 bg">评价服务</div>
+		<div class="p-title-2">
+			<span>服务商：阿姨家政</span>
+			<span>联系电话:18775223377</span>
+		</div>
+	</div>
+	<div class="main-main clearfix">
+		<img src="images/demo.png">
+		<div class="main-main-right">
+			<div class="mmr1">
+				服务评分
+				<i class="fi-heart"></i>
+				<i class="fi-heart"></i>
+				<i class="fi-heart"></i>
+				<i class="fi-heart"></i>
+				<i class="fi-heart"></i>
+			</div>
+			<div class="mmr2">
+				<form action="" method="post">
+				<!--
+					score 接收分数
+					pj 接收评价
+				-->
+					<input name="score" id="score" type="hidden" value="0">
+					<textarea name="pj" id="pj" placeholder="请输入少于100个字的评价..."></textarea>
+					<span>您还可以输入<b>100</b>字</span>
+					<input type="submit" value="发表评价">
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/pingjia.js"></script>
+</html>

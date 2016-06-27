@@ -1,0 +1,165 @@
+body{
+	background: #f9f9f9;
+}
+.header{
+	width: 100%;
+	height: 50px;
+	background: #eee;
+}
+.header-main{
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.header li{
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px; 
+	float: left;
+}
+.search-main{
+	margin: 30px auto;
+	width: 1200px;
+	height: 80px;
+}
+.search-main img{
+	width: 120px;
+	height: 60px;
+	float: left;
+	margin: 10px 0;
+}
+.search-main input{
+	float: left;
+	margin: 17px 0;
+	border: 3px solid #CD0000;
+}
+.search-main input[type=text]{
+	padding-left: 120px;
+	height: 40px;
+	width: 400px;
+	background: #eee;
+}
+.search-main input[type=submit]{
+	color: #eee;
+	height: 46px;
+	width: 60px;
+	background: #CD0000;
+}
+.input-but{
+	position: relative;
+	float: left;
+	margin-left: 120px;
+	width: 588px;
+}
+.search-text{
+	width: 110px;
+	height: 40px;
+	position: absolute;
+	left: 3px;
+	top: 20px;
+	text-align: center;
+	line-height: 40px;
+	background: #fff;
+}
+.index-title{
+	margin-bottom: 30px;
+	height: 30px;
+	border-top: 1px solid #eee;
+	border-bottom: 2px solid #CD0000;
+}
+.index-title-text{
+	float: left;
+	width: 150px;
+	background: #CD0000;
+	text-align: center;
+	line-height: 30px;
+	color: #eee;
+}
+.index-title-1{
+	width: 1200px;
+	margin: 0 auto;
+}
+.index-title-1 ul{
+	float: left;
+	margin-left: 20px;
+}
+.index-title-1 li{
+	float: left;
+	line-height: 30px;
+	padding: 0 20px;
+}
+.main{
+	border: 1px solid #ddd;
+	width: 1200px;
+	margin: 0 auto;
+}
+.main-left{
+	padding-bottom: 50px;
+	min-height: 600px;
+	float: left;
+	width: 230px;
+	background: #eee;
+	text-align: center;
+}
+.main-left img{
+	width: 140px;
+	height: 180px;
+	margin: 30px 45px;
+}
+.main-left b{
+	color: #222;
+	line-height: 30px;
+}
+.main-right{
+	float: left;
+	width: 970px;
+}
+.main-right-title{
+	height: 50px;
+	padding: 0 20px;
+	line-height: 50px;
+	font-weight: bold;
+	border-bottom: 1px solid #ddd;
+}
+.main-right dl{
+	line-height: 50px;
+	margin: 50px auto;
+	width: 700px;
+}
+.main-right dt{
+	margin-right: 20px;
+	float: left;
+	width: 180px;
+	text-align: right;
+}
+.main-right dd{
+	float: left;
+	width: 500px;
+}
+.main-right input,.main-right select{
+	height: 25px;
+	width: 200px;
+	padding: 2px 5px;
+}
+.main-right input[type=radio]{
+	width: 15px;
+	height: 15px;
+}
+.save{
+	width: 90px;
+	height: 40px;
+	display: block;
+	background: #CD0000;
+	color: #eee;
+	line-height: 40px;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: bold;
+}
+.bg-cd3700{
+	background: #CD3700;
+}
+.bg-cd3700 a{
+	color: #eee;
+}
